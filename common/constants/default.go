@@ -7,15 +7,11 @@ import (
 )
 
 const (
-	DefaultConfigDir    = "/etc/kubeedge/config/"
-	DefaultCAFile       = "/etc/kubeedge/ca/rootCA.crt"
-	DefaultCAKeyFile    = "/etc/kubeedge/ca/rootCA.key"
-	DefaultCertFile     = "/etc/kubeedge/certs/server.crt"
-	DefaultKeyFile      = "/etc/kubeedge/certs/server.key"
-	DefaultEdgeCertFile = "/etc/kubeedge/certs/edge.crt"
-	DefaultEdgeKeyFile  = "/etc/kubeedge/certs/edge.key"
-	DefaultCADir        = "/etc/kubeedge/ca"
-	DefaultCertDir      = "/etc/kubeedge/certs"
+	DefaultConfigDir = "/etc/kubeedge/config/"
+	DefaultCAFile    = "/etc/kubeedge/ca/rootCA.crt"
+	DefaultCAKeyFile = "/etc/kubeedge/ca/rootCA.key"
+	DefaultCertFile  = "/etc/kubeedge/certs/server.crt"
+	DefaultKeyFile   = "/etc/kubeedge/certs/server.key"
 
 	DefaultCAURL   = "/ca.crt"
 	DefaultCertURL = "/edge.crt"
@@ -93,17 +89,7 @@ const (
 	DefaultUpdateNodeBuffer                 = 1024
 	DefaultDeletePodBuffer                  = 1024
 
-	DefaultETCDTimeout = 10
-
-	DefaultEnableElection = false
-	DefaultElectionTTL    = 30
-	DefaultElectionPrefix = "/controller/leader"
-
-	DefaultMessageLayer = "context"
-
-	DefaultContextSendModuleName     = "cloudhub"
-	DefaultContextReceiveModuleName  = "edgecontroller"
-	DefaultContextResponseModuleName = "cloudhub"
+	DefaultContextSendModuleName = "cloudhub"
 
 	DefaultPodEventBuffer       = 1
 	DefaultConfigMapEventBuffer = 1
@@ -131,7 +117,7 @@ const (
 	CSIOperationTypeControllerUnpublishVolume = "controllerunpublishvolume"
 	CSISyncMsgRespTimeout                     = 1 * time.Minute
 
-	CurrentSupportK8sVersion = "v1.17.1"
+	CurrentSupportK8sVersion = "v1.18.6"
 )
 
 const (
