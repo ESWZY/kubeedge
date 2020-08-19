@@ -66,12 +66,13 @@ require (
 	google.golang.org/grpc v1.26.0
 	gopkg.in/square/go-jose.v2 v2.3.1 // indirect
 	gopkg.in/yaml.v2 v2.2.8
-	k8s.io/api v0.18.6
+	k8s.io/api v0.18.8
 	k8s.io/apiextensions-apiserver v0.18.6
-	k8s.io/apimachinery v0.18.6
+	k8s.io/apimachinery v0.18.8
 	k8s.io/apiserver v0.18.6
 	k8s.io/client-go v0.18.6
 	k8s.io/cloud-provider v0.18.6
+	k8s.io/cluster-bootstrap v0.18.8 // indirect
 	k8s.io/code-generator v0.18.6
 	k8s.io/component-base v0.18.6
 	k8s.io/cri-api v0.18.6
